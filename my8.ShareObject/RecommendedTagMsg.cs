@@ -6,6 +6,6 @@ namespace my8.ShareObject.ESB
 {
     public class RecommendedTagMsg
     {
-        public List<string> Tag { get; set; }
+        public List<string> Tags { get; set; }
     }
 }
