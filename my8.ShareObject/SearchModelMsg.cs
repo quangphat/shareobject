@@ -12,5 +12,13 @@ namespace my8.ShareObject.ESB
         public string Title { get; set; }
         public string[] Tags { get; set; } 
         public string ProjectId { get; set; }
+        public int Likes { get; set; }
+        public int Views { get; set; }
+        public int Comments { get; set; }
+        public int Shares { get; set; }
+        public DateTime CreatedTime { get; set; }
+        public string FriendlyUrl { get; set; }
+        public Author Author { get; set; }
+        public string Preview { get; set; }
     }
 }
