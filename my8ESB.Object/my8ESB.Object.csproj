@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\my8ShareObject\my8ShareObject.csproj" />
+    <ProjectReference Include="..\my8ViewObject\my8ViewObject.csproj" />
+  </ItemGroup>
+
+</Project>

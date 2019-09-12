@@ -1,0 +1,8 @@
+D:\Development\my8\my8.ShareObject\my8ViewObject\obj\Debug\netcoreapp2.2\my8ViewObject.csproj.CoreCompileInputs.cache
+D:\Development\my8\my8.ShareObject\my8ViewObject\obj\Debug\netcoreapp2.2\my8ViewObject.AssemblyInfoInputs.cache
+D:\Development\my8\my8.ShareObject\my8ViewObject\obj\Debug\netcoreapp2.2\my8ViewObject.AssemblyInfo.cs
+D:\Development\my8\my8.ShareObject\my8ViewObject\bin\Debug\netcoreapp2.2\my8ViewObject.deps.json
+D:\Development\my8\my8.ShareObject\my8ViewObject\bin\Debug\netcoreapp2.2\my8ViewObject.dll
+D:\Development\my8\my8.ShareObject\my8ViewObject\bin\Debug\netcoreapp2.2\my8ViewObject.pdb
+D:\Development\my8\my8.ShareObject\my8ViewObject\obj\Debug\netcoreapp2.2\my8ViewObject.dll
+D:\Development\my8\my8.ShareObject\my8ViewObject\obj\Debug\netcoreapp2.2\my8ViewObject.pdb
