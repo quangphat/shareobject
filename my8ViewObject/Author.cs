@@ -1,8 +1,12 @@
-﻿namespace my8ViewObject
+﻿using MongoDB.Bson.Serialization.Attributes;
+
+namespace my8ViewObject
 {
+    [BsonIgnoreExtraElements]
     public class Author
     {
         public Author() { }
+        [BsonId]
         public string Id { get; set; }
         public string FirstName { get; set; }
         public string DisplayName { get; set; }
