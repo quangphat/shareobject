@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace my8ShareObject
-{
+﻿
     public class FileUploadedInfo
     {
         public FileUploadedInfo(string name, string url, string extension, long size)
@@ -18,4 +13,4 @@ namespace my8ShareObject
         public string Ext { get; set; }
         public long Size { get; set; }
     }
-}
+
