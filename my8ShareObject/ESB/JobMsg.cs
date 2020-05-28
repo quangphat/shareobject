@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace my8.ESB
+namespace my8ShareObject.ESB
 {
     public class JobMsg
     {

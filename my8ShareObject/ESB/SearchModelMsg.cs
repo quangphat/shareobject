@@ -1,6 +1,7 @@
 ﻿using my8ShareObject.Enums;
 using System;
-namespace my8.ESB
+
+namespace my8ShareObject.ESB
 {
     public class SearchModelMsg
     {
