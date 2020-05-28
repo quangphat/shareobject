@@ -25,6 +25,7 @@ namespace CoreObject.Mongo
         public string Email { get; set; }
         public string Password { get; set; }
         public string Role { get; set; }
+        public string Token { get; set; }
         public string[] Scopes { get; set; }
         public string ProjectId { get; set; }
         public string[] SkillTags { get; set; }
