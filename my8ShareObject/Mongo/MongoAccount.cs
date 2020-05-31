@@ -34,5 +34,6 @@ namespace CoreObject.Mongo
         public bool IsBanned { get; set; }
         public DateTime? BannedDate { get; set; }
         public bool IsComfirmEmail { get; set; }
+        public string RefreshToken { get; set; }
     }
 }
