@@ -19,6 +19,7 @@ namespace my8ShareObject
         public string Email { get; set; }
         public string Role { get; set; }
         public string Token { get; set; }
+        public string RefreshToken { get; set; }
         public string[] Scopes { get; set; }
         public string ProjectId { get; set; }
         public string[] SkillTags { get; set; }
