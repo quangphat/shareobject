@@ -1,19 +1,15 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using my8ShareObject.Mongo;
 using Newtonsoft.Json;
 using System;
 
 
 namespace CoreObject.Mongo
 {
-    public class MongoAccount
+    public class MongoAccount : MongoBaseModel
     {
         public MongoAccount() { }
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        [BsonElement("Id")]
-        [JsonProperty(PropertyName = "PersonId")]
-        public string PersonId { get; set; }
         public string DisplayName { get; set; }
         public string ProfileName { get; set; }
         public string Avatar { get; set; }

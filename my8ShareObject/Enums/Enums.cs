@@ -21,6 +21,14 @@ namespace my8ShareObject.Enums
         Approved = 2,
         Reject = 3
     }
+
+    public enum JobStatusType
+    {
+        Draft = 0,
+        Pending = 1,
+        Approved = 2,
+        Reject = 3
+    }
     public enum LocationType
     {
         Country = 1,
