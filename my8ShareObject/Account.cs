@@ -4,9 +4,9 @@ using System.Text;
 
 namespace my8ShareObject
 {
-    public class Account
+    public class AccountViewModel
     {
-        public Account() { }
+        public AccountViewModel() { }
         public string PersonId { get; set; }
         public string DisplayName { get; set; }
         public string ProfileName { get; set; }

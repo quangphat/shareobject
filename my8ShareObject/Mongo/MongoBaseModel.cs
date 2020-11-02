@@ -11,10 +11,11 @@ namespace my8ShareObject.Mongo
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-        public DateTime CreatedTime { get; set; }
-        public DateTime ModifiedTime { get; set; }
+        public DateTime? CreatedTime { get; set; }
+        public DateTime? ModifiedTime { get; set; }
         public string CreatedBy { get; set; }
         public string ModifiedBy { get; set; }
         public bool IsDeleted { get; set; }
+        public string ProjectId { get; set; }
     }
 }

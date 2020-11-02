@@ -4,11 +4,12 @@ using System.Text;
 
 namespace my8ShareObject.Enums
 {
-    public static class AccountType
+    public static class AccountRole
     {
         public const string Client = "client";
         public const string Manager = "manager";
         public const string Editor = "editor";
+        public const string Employee = "employee";
     }
     public static class ProjectType
     {
@@ -25,7 +26,7 @@ namespace my8ShareObject.Enums
     public enum JobStatusType
     {
         Draft = 0,
-        Pending = 1,
+        WaitingForApproving = 1,
         Approved = 2,
         Reject = 3
     }
@@ -60,5 +61,11 @@ namespace my8ShareObject.Enums
         Article = 1,
         People = 2,
         Job = 3
+    }
+
+    public enum AccountType
+    {
+        Employee =1,
+        Employer =2
     }
 }
