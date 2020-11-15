@@ -1,4 +1,5 @@
-﻿using System;
+﻿using my8ShareObject.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -12,7 +13,7 @@ namespace my8ShareObject
         public string ProfileName { get; set; }
         public string Avatar { get; set; }
         public string Headline { get; set; }
-        public string Company { get; set; }
+        public string CompanyId { get; set; }
         public double Rate { get; set; }//Đánh giá 
         public string Firstname { get; set; }
         public string Lastname { get; set; }
@@ -23,7 +24,10 @@ namespace my8ShareObject
         public string[] Scopes { get; set; }
         public string ProjectId { get; set; }
         public string[] SkillTags { get; set; }
+        public string[] Functions { get; set; }
+        public string[] Locations { get; set; }
         public string[] FollowingTags { get; set; }
         public bool IsBanned { get; set; }
+        public AccountType AccountType { get; set; }
     }
 }

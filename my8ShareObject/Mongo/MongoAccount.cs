@@ -26,6 +26,8 @@ namespace CoreObject.Mongo
         public string[] Scopes { get; set; }
         public string[] SkillTags { get; set; }
         public string[] FollowingTags { get; set; }
+        public string[] Functions { get; set; }
+        public string[] Locations { get; set; }
         public string Salt { get; set; }
         public bool IsBanned { get; set; }
         public DateTime? BannedDate { get; set; }
