@@ -11,9 +11,23 @@ namespace my8ShareObject.Enums
         public const string Editor = "editor";
         public const string Employee = "employee";
     }
+
+    public static class FilterType
+    {
+        public const string Job = "job";
+        public const string Article = "article";
+    }
+
     public static class ProjectType
     {
         public const string GreenCode = "greencode";
+    }
+
+    public enum ApplyJobStatus
+    {
+        Pending = 1,
+        Approved = 2,
+        Reject = 3
     }
     public enum ArticleStatusType
     {
@@ -56,16 +70,16 @@ namespace my8ShareObject.Enums
         Comment = 2,
         Reply = 3
     }
-    public enum FilterType
-    {
-        Article = 1,
-        People = 2,
-        Job = 3
-    }
+    //public enum FilterType
+    //{
+    //    Article = 1,
+    //    People = 2,
+    //    Job = 3
+    //}
 
     public enum AccountType
     {
-        Employee =1,
-        Employer =2
+        Employee = 1,
+        Employer = 2
     }
 }
