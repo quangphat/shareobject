@@ -82,4 +82,10 @@ namespace my8ShareObject.Enums
         Employee = 1,
         Employer = 2
     }
+
+    public enum SortBy
+    {
+        Ascending = 1,
+        Descending = 2
+    }
 }
