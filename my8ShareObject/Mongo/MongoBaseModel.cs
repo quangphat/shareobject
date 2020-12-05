@@ -6,6 +6,7 @@ using System.Text;
 
 namespace my8ShareObject.Mongo
 {
+    [BsonIgnoreExtraElements]
     public class MongoBaseModel
     {
         [BsonId]
