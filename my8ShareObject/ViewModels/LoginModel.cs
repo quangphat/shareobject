@@ -1,4 +1,6 @@
 ﻿
+namespace my8ShareObject.ViewModels
+{
     public class LoginModel
     {
         public string Email { get; set; }
@@ -6,4 +8,4 @@
         public bool RememberLogin { get; set; }
         public string ReturnUrl { get; set; }
     }
-
+}

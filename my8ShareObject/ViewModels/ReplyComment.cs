@@ -1,7 +1,8 @@
 ﻿
 using System;
-
-public class ReplyComment
+namespace my8ShareObject.ViewModels
+{
+    public class ReplyComment
     {
         public string Id { get; set; }
         public string CommentId { get; set; }
@@ -14,4 +15,5 @@ public class ReplyComment
         public DateTime ModifiedTime { get; set; }
         public string ProjectId { get; set; }
     }
+}
 

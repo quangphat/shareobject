@@ -1,8 +1,10 @@
 
+namespace my8ShareObject.ViewModels
+{
     public class ArticleViewModel
     {
-		public string Id { get; set; }
-	    public string Title { get; set; }
+        public string Id { get; set; }
+        public string Title { get; set; }
         public string Preview { get; set; }
         public long CreatedTime { get; set; }
         public long ModifiedTime { get; set; }
@@ -29,3 +31,4 @@
     }
 
 
+}

@@ -1,5 +1,6 @@
 ﻿using System;
-
+namespace my8ShareObject.ViewModels
+{
     public class ArticleFilterModel : FilterModelBase
     {
         public int status { get; set; }
@@ -12,3 +13,4 @@
         public DateTime? approvedDate { get; set; }
     }
 
+}

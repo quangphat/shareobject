@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace my8ShareObject
+namespace my8ShareObject.ViewModels
 {
     public class AccountViewModel
     {

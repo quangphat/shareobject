@@ -1,4 +1,6 @@
 ﻿
+namespace my8ShareObject.ViewModels
+{
     public class LocationView
     {
         public string Id { get; set; }
@@ -11,3 +13,4 @@
         public int OrderPoint { get; set; }
     }
 
+}

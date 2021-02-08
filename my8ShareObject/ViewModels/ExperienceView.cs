@@ -1,4 +1,6 @@
 ﻿
+namespace my8ShareObject.ViewModels
+{
     public class ExperienceView
     {
         public string Id { get; set; }
@@ -15,4 +17,4 @@
         public string Description { get; set; }
         public string PersonId { get; set; }
     }
-
+}
