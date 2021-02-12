@@ -9,7 +9,7 @@ namespace my8ShareObject.Request
     {
         public string Phone { get; set; }
         public List<JobSkillSimple> Skills { get; set; }
-        public List<IndustrySimple> Industries { get; set; }
+        public IndustrySimple Industry { get; set; }
         public LocationSimple Headquarter { get; set; }
     }
 }
