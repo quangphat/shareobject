@@ -29,5 +29,6 @@ namespace my8ShareObject.ViewModels
         public string[] FollowingTags { get; set; }
         public bool IsBanned { get; set; }
         public AccountType AccountType { get; set; }
+        public string AccountSource { get; set; }
     }
 }

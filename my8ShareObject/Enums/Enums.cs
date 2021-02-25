@@ -12,6 +12,15 @@ namespace my8ShareObject.Enums
         public const string Employee = "employee";
     }
 
+    public static class AccountSource
+    {
+        public const string jobbridge = "jobbridge";
+        public const string google = "google";
+        public const string github = "github";
+        public const string linkedin = "linkedin";
+    }
+
+
     public static class FilterType
     {
         public const string Job = "job";

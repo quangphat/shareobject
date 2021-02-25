@@ -9,5 +9,6 @@ namespace my8ShareObject
         public string Email { get; set; }
         public string OldToken { get; set; }
         public string RefreshToken { get; set; }
+        public string AccountSource { get; set; }
     }
 }
