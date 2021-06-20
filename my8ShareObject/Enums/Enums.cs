@@ -27,6 +27,18 @@ namespace my8ShareObject.Enums
         public const string Article = "article";
     }
 
+    public static class EmailTemplateType
+    {
+        public const string register = "register";
+        public const string forgot_password = "forgot_password";
+    }
+
+    public enum ActivateAccountType
+    {
+        Active =1,
+        ForgotPassword = 2
+    }
+
     public static class ProjectType
     {
         public const string GreenCode = "greencode";
