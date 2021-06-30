@@ -1,9 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace my8ShareObject.Enums
 {
+
+    public static class ESEmploymentType
+    {
+        public const string PartTime = "parttime";
+        public const string FullTime = "fulltime";
+        public const string Contract = "contract";
+        public const string Internship = "internship";
+        public const string Temperory = "temperory";
+        public const string Volunteer = "volunteer";
+    }
+
+    public enum EExperienceLevel
+    {
+        [Description("Fresher")]
+        Fresher =0,
+        [Description("1 year")]
+        OneYear =1,
+        [Description("2 years")]
+        TwoYear = 2,
+        [Description("3 years")]
+        ThreeYear =3,
+        [Description("4 years")]
+        FourYear = 4,
+        [Description("5 years")]
+        FiveYear = 5,
+        [Description("6 years")]
+        SixYear = 6,
+        [Description("7 years")]
+        SevenYear = 7,
+        [Description("8 years")]
+        EightYear = 8,
+        [Description("9 years")]
+        NineYear = 9,
+        [Description("10 years")]
+        TenYear = 10,
+        [Description("Over 10 years")]
+        OverTenYear = 11,
+        
+
+    }
+
     public static class AccountRole
     {
         public const string Client = "client";
