@@ -1,9 +1,11 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace my8ShareObject.SimpleModel
 {
+    [BsonIgnoreExtraElements]
     public class CountrySimple
     {
         public string Id { get; set; }

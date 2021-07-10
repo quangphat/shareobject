@@ -13,5 +13,6 @@ namespace my8ShareObject.SimpleModel
         public string Display { get; set; }
         public string Address { get; set; }
         public bool IsMain { get; set; }
+        public string FlagUrl { get; set; }
     }
 }
