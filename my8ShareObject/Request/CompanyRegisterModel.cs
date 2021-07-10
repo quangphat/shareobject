@@ -1,4 +1,4 @@
-﻿using my8ShareObject.Common;
+﻿using my8ShareObject.SimpleModel;
 using System;
 using System.Collections.Generic;
 using System.Text;

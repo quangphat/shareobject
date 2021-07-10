@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace my8ShareObject.Common
+namespace my8ShareObject.SimpleModel
 {
     public class JobSkillSimple
     {
