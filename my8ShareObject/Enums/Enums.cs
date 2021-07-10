@@ -16,6 +16,13 @@ namespace my8ShareObject.Enums
         public const string Volunteer = "volunteer";
     }
 
+    public enum SoftWareType
+    {
+        Product = 1,
+        OutSource =2,
+        ProductAndOutSource = 3
+    }
+
     public enum EExperienceLevel
     {
         [Description("Fresher")]

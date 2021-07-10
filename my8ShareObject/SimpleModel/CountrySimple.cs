@@ -9,8 +9,8 @@ namespace my8ShareObject.SimpleModel
     public class CountrySimple
     {
         public string Id { get; set; }
-        public string Code { get; set; }
-        public string CountryName { get; set; }
+        public string Value { get; set; }
+        public string Label { get; set; }
         public string FlagUrl { get; set; }
     }
 }
