@@ -16,6 +16,23 @@ namespace my8ShareObject.Enums
         public const string Volunteer = "volunteer";
     }
 
+    public enum OTPolicy
+    {
+        NoOT = 1,
+        HasOTPolicy = 2
+    }
+
+    public enum CompanySize
+    {
+        OneTo50 =1,
+        FiftyTo100 = 2,
+        OneHundredTo200 =3,
+        OneHundredTo300 = 4,
+        OneHundredTo500 = 5,
+        FiveHundredTo1000 =6,
+        Over1000 = 7
+    }
+
     public enum SoftWareType
     {
         Product = 1,

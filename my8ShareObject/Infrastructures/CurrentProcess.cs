@@ -15,7 +15,11 @@ namespace my8ShareObject.Infrastructures
         public long PersonId { get; set; }
         public string ProjectId { get; set; }
         public long CompanyId { get; set; }
-
+        public string Email { get; set; }
+        public string UserName { get; set; }
+        public string ProfileName { get; set; }
+        public string Role { get; set; }
+        public string Avatar { get; set; }
         public int AccountType { get; set; }
         public string AccountSource { get; set; }
         public bool IsGuest { get; set; } = false;
