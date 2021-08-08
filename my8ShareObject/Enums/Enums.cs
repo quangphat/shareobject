@@ -175,4 +175,33 @@ namespace my8ShareObject.Enums
         Ascending = 1,
         Descending = 2
     }
+
+    public enum EReviewStatus
+    {
+        [Description("New")]
+        New = 1,
+        [Description("Approved")]
+        Approved = 2,
+        [Description("Reject")]
+        Reject =3
+    }
+
+    public enum EMediaType
+    {
+        Avatar =1,
+        Cv = 2,
+        CompanyPicture=3
+    }
+
+    public enum EImageSize
+    {
+        [Description("w150xh170")]
+        Small = 1,
+        [Description("w500x700")]
+        Medium = 2,
+        [Description("w1280x720")]
+        Large = 3,
+        [Description("w800x500")]
+        Thumbnail = 4,
+    }
 }

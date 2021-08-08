@@ -5,6 +5,9 @@ public class AmazonS3Config
     public string BucketName { get; set; }
     public string AccessKeyId { get; set; }
     public string AccessKey { get; set; }
-    public string UserProfileCv { get; set; }
+    public string EmployeeAvatar { get; set; }
+    public string EmployerAvatar { get; set; }
+    public string Employee { get; set; }
+    public string EmployerPictures { get; set; }
 }
 
