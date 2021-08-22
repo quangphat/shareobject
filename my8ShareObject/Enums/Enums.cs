@@ -169,6 +169,12 @@ namespace my8ShareObject.Enums
         Employee = 1,
         Employer = 2
     }
+    public enum EMediaOwnerType
+    {
+        Employee = 1,
+        Employer = 2,
+        Company = 3
+    }
 
     public enum SortBy
     {
@@ -203,5 +209,9 @@ namespace my8ShareObject.Enums
         Large = 3,
         [Description("w800x500")]
         Thumbnail = 4,
+        [Description("none")]
+        None = 5,
+        [Description("Avatar")]
+        Avatar = 6,
     }
 }
