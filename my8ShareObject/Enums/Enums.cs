@@ -163,7 +163,11 @@ namespace my8ShareObject.Enums
     //    People = 2,
     //    Job = 3
     //}
-
+    public enum ECvType
+    {
+        UseUploadedCv =1,
+        UploadNew =2
+    }
     public enum AccountType
     {
         Employee = 1,
