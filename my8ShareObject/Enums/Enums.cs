@@ -16,13 +16,13 @@ namespace my8ShareObject.Enums
         public const string Volunteer = "volunteer";
     }
 
-    public enum OTPolicy
+    public enum EOTPolicy
     {
         NoOT = 1,
         HasOTPolicy = 2
     }
 
-    public enum CompanySize
+    public enum ECompanySize
     {
         OneTo50 =1,
         FiftyTo100 = 2,
@@ -33,7 +33,7 @@ namespace my8ShareObject.Enums
         Over1000 = 7
     }
 
-    public enum SoftWareType
+    public enum ESoftWareType
     {
         Product = 1,
         OutSource =2,
@@ -70,7 +70,7 @@ namespace my8ShareObject.Enums
 
     }
 
-    public static class AccountRole
+    public static class EAccountRole
     {
         public const string Client = "client";
         public const string Manager = "manager";
@@ -78,7 +78,7 @@ namespace my8ShareObject.Enums
         public const string Employee = "employee";
     }
 
-    public static class AccountSource
+    public static class EAccountSource
     {
         public const string jobbridge = "jobbridge";
         public const string google = "google";
@@ -87,36 +87,36 @@ namespace my8ShareObject.Enums
     }
 
 
-    public static class FilterType
+    public static class EFilterType
     {
         public const string Job = "job";
         public const string Article = "article";
     }
 
-    public static class EmailTemplateType
+    public static class EEmailTemplateType
     {
         public const string register = "register";
         public const string forgot_password = "forgot_password";
     }
 
-    public enum ActivateAccountType
+    public enum EActivateAccountType
     {
         Active =1,
         ForgotPassword = 2
     }
 
-    public static class ProjectType
+    public static class EProjectType
     {
         public const string GreenCode = "greencode";
     }
 
-    public enum ApplyJobStatus
+    public enum EApplyJobStatus
     {
         Pending = 1,
         Approved = 2,
         Reject = 3
     }
-    public enum ArticleStatusType
+    public enum EArticleStatusType
     {
         Draft = 0,
         Pending = 1,
@@ -124,34 +124,34 @@ namespace my8ShareObject.Enums
         Reject = 3
     }
 
-    public enum JobStatusType
+    public enum EJobStatusType
     {
         Draft = 0,
         WaitingForApproving = 1,
         Approved = 2,
         Reject = 3
     }
-    public enum LocationType
+    public enum ELocationType
     {
         Country = 1,
         City = 2,
         District = 3,
         Ward = 4
     }
-    public enum ObjectType
+    public enum EObjectType
     {
         Article = 1,
         Job = 2,
         People = 3,
         Company = 4
     }
-    public enum TagType
+    public enum ETagType
     {
         JobFunction = 1,
         Industry = 2,
         GreenCode = 3
     }
-    public enum TargetType
+    public enum ETargetType
     {
         Feed = 1,
         Comment = 2,
@@ -163,24 +163,24 @@ namespace my8ShareObject.Enums
     //    People = 2,
     //    Job = 3
     //}
+
+    public enum EPackage
+    {
+        Free = 1
+    }
+
     public enum ECvType
     {
         UseUploadedCv =1,
         UploadNew =2
     }
-    public enum AccountType
+    public enum EAccountType
     {
         Employee = 1,
         Employer = 2
     }
-    public enum EMediaOwnerType
-    {
-        Employee = 1,
-        Employer = 2,
-        Company = 3
-    }
 
-    public enum SortBy
+    public enum ESortDirection
     {
         Ascending = 1,
         Descending = 2
@@ -196,11 +196,20 @@ namespace my8ShareObject.Enums
         Reject =3
     }
 
+    public enum EMediaOwnerType
+    {
+        Employee = 1,
+        Employer = 2,
+        Company = 3,
+        Job = 4
+    }
+
     public enum EMediaType
     {
         Avatar =1,
         Cv = 2,
-        CompanyPicture=3
+        CompanyPicture=3,
+        JobCoverImage = 4
     }
 
     public enum EImageSize

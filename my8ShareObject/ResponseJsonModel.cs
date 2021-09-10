@@ -8,7 +8,7 @@ using System.Text;
         public ErrorJsonModel error { get; set; }
         public bool success { get; set; }
     }
-    public class ResponseJsonModel<T> : ResponseJsonModel where T : class
+    public class ResponseJsonModel<T> : ResponseJsonModel 
     {
         public T data { get; set; }
     }

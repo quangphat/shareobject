@@ -9,5 +9,6 @@ public class AmazonS3Config
     public string EmployerAvatar { get; set; }
     public string Employee { get; set; }
     public string EmployerPictures { get; set; }
+    public string JobCoverImage { get; set; }
 }
 
