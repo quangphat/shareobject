@@ -16,6 +16,16 @@ namespace my8ShareObject.Enums
         public const string Volunteer = "volunteer";
     }
 
+    public enum EAppliedStatus
+    {
+        UnSeen = 1,
+        Seen = 2,
+        ScheduleInterview = 3,
+        Interviewed = 4,
+        Offered = 5,
+        Rejected = 6
+    }
+
     public enum EOTPolicy
     {
         NoOT = 1,
@@ -110,12 +120,6 @@ namespace my8ShareObject.Enums
         public const string GreenCode = "greencode";
     }
 
-    public enum EApplyJobStatus
-    {
-        Pending = 1,
-        Approved = 2,
-        Reject = 3
-    }
     public enum EArticleStatusType
     {
         Draft = 0,
