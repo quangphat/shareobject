@@ -1,5 +1,4 @@
-﻿using my8ShareObject.Enums;
-using System;
+﻿using System;
 
 namespace my8ShareObject.ESB
 {
@@ -7,7 +6,6 @@ namespace my8ShareObject.ESB
     {
         public string Id { get; set; }
         public string FeedId { get; set; }
-        public EObjectType ObjectType { get; set; } 
         public string Title { get; set; }
         public string[] Tags { get; set; } 
         public string ProjectId { get; set; }
