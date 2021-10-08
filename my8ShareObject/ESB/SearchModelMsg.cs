@@ -15,7 +15,6 @@ namespace my8ShareObject.ESB
         public int Shares { get; set; }
         public DateTime CreatedTime { get; set; }
         public string FriendlyUrl { get; set; }
-        public Author Author { get; set; }
         public string Preview { get; set; }
     }
 }
